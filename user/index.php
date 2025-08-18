@@ -16,7 +16,7 @@ if(isset($_SESSION["id"])) {
       $db_contact = $row_edit['contact'];
   }
 
-  echo "Welcome $db_name!";
+  echo "Welcome $db_name!  <a href='logout.php'>Logout</a>";
 
 } else {
 
